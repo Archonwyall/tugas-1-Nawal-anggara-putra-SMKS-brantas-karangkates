@@ -1,0 +1,134 @@
+/* Reset dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #000205; /* Warna latar gelap */
+    color: #fafbfc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.kartu-profil {
+    background-color: #32313d;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 500px;
+    width: 100%;
+    border: 1px solid #fcf8f8;
+}
+
+h1 {
+    font-size: 28px;
+    color: #0c0c0c; /* Biru muda */
+    margin-bottom: 45px;
+}
+
+.tagline {
+    color: #b5b6b9;
+    font-size: 17Px;
+    margin-bottom: 24px;
+}
+
+h2 {
+    font-size: 16px;
+    color: #0a0a0a;
+    margin: 20px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+}
+
+ul {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+.kontak {
+    margin-top: 24px;
+    padding: 12px;
+    background: #545457;
+    border-radius: 8px;
+    font-size: 14px;
+    color: #01010c;
+}
+
+.kartu-profil:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px #43f53c;
+  transition: all 0.1s ease;
+}
+h1:hover {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+h2{
+  transition: 0.3s;
+}
+h2:hover{
+  color: #ffffff
+}
+li:hover {
+  color: #070707;
+  background-color: #09eb1c;
+  box-shadow: 0 8px 20px #27d627;
+  padding-left: 10px;
+  border-left: 4px solid #0330fa93;
+  transition: all 0.25s ease;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+.tagline:hover {
+  font-style: italic;
+  color: #f5f5f5;
+  transition: 0.3s ease;
+}
+.kontak:hover {
+  color: #f0eff1;
+  cursor: pointer;
+  transition: color 0.3s ease;
+  background-color: #000108;
+}
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 4px solid #fcfdf9;
+}
+.foto-profil:hover {
+  transform: scale(1.0);
+  box-shadow: 0 8px 20px #27d627;
+  transition: all 0.3s ease;
+}
+.foto-profil {
+  width: 150px;
+  height: 150px;
+  border-radius: 30%;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto 20px auto;
+  border: 4px solid #0c0c0c;
+}
+.foto-profil:hover {
+  transform: scale(1.1);
+  border: 4px solid #f6f5f7;
+  box-shadow: 0 8px 20px #27d627;
+  transition: all 0.3s ease;
+}
+.a{
+  font-size: 14px;
+  color: white;
+}
