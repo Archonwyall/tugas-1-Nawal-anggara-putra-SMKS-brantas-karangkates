@@ -3,7 +3,7 @@
 Website portofolio pribadi yang saya buat di Kelas Industri UBIG (Paket 1, Minggu 01 sampai 05).
 Website ini tampil rapi di ponsel, tablet, dan laptop.
 
-- Website: https://nawal-tugas3.vercel.app
+- Website: https://nawal-tugas1.vercel.app
 
 ## Tampilan
 
